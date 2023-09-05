@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>4432ffcb-81a0-42c8-aa51-f0a270ae532d</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspose.Cells" Version="23.8.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="MySql.EntityFrameworkCore" Version="7.0.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="cli_basetypes">
+      <HintPath>C:\Program Files (x86)\OpenOffice_4.1.14_SDK\sdk\cli\cli_basetypes.dll</HintPath>
+    </Reference>
+    <Reference Include="cli_cppuhelper">
+      <HintPath>C:\Program Files (x86)\OpenOffice_4.1.14_SDK\sdk\cli\cli_cppuhelper.dll</HintPath>
+    </Reference>
+    <Reference Include="cli_oootypes">
+      <HintPath>C:\Program Files (x86)\OpenOffice_4.1.14_SDK\sdk\cli\cli_oootypes.dll</HintPath>
+    </Reference>
+    <Reference Include="cli_ure">
+      <HintPath>C:\Program Files (x86)\OpenOffice_4.1.14_SDK\sdk\cli\cli_ure.dll</HintPath>
+    </Reference>
+    <Reference Include="cli_uretypes">
+      <HintPath>C:\Program Files (x86)\OpenOffice_4.1.14_SDK\sdk\cli\cli_uretypes.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
